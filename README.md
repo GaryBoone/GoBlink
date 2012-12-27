@@ -15,7 +15,7 @@ To run, you'll first need to install *libusb*. The easiest way to so is via [Mac
 
 	$ sudo port install libusb-compat
 	
-	If your MacPorts installation does not install the *libusb* files into */opt/local/{include|lib}*, then adjust the *#cgo* compiler directives in *hid.go*. 
+	If your MacPorts installation does not install the *libusb* files into */opt/local/{include | lib}*, then adjust the *#cgo* compiler directives in *hid.go*. 
 
 4. *cd* to the directory with this project's files, then to build and run
 
